@@ -278,7 +278,7 @@
     grid-column: 1;
   }
 
-  .section:nth-of-type(2) .section__content {
+  .section_type_concentration .section__content {
     grid-column: 1 / -1;
   }
 
@@ -320,6 +320,10 @@
     padding-inline: 20px;
     padding-block: 20px;
   }
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
 
 @media (width >= 1024px) {
@@ -337,7 +341,7 @@
     max-inline-size: 491px;
   }
 
-  .section:nth-of-type(2) .section__content {
+  .section_type_concentration .section__content {
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
   }
